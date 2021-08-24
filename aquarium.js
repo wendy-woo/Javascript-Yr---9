@@ -3,6 +3,18 @@ Access the form element using the method getElementById()
 The following URL will help you to do this:
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
+<!DOCTYPE html>
+<html>
+<body>
+  
+< p id= "p1"> Hello wonderful customer!</p> 
+
+<script>
+document.getElementById("p1").innerHTML = "New text!";
+
+if (number  
+    document.getElementById ("demo"). innerHTML = "Hello wonderful customer"
+
 
 
 
