@@ -14,6 +14,14 @@ document.getElementById("p1").innerHTML = "New text!";
 
 if (number  
     document.getElementById ("demo"). innerHTML = "Hello wonderful customer"
+<head>
+  <title></title>
+  <script type="text/javascript">
+    window.onload=function() {
+        lengthObj = document.getElementById ('txtLength') ;
+        widthObj = document.getElementById ('txtWidth') ;
+        weightObj = document.getElementById ('tdWeight') ;
+        
 
 
 
@@ -37,7 +45,8 @@ The links below will help you to do this:
 https://www.w3schools.com/js/js_htmldom_document.asp
 https://www.w3schools.com/jsref/event_onclick.asp
 */
-
+document.getElementById ('btnReset').onclick = resetInputs;
+document.getElementById ('btnCalc').onclick =  calcWeight; 
 
 
 /*
