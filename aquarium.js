@@ -21,6 +21,20 @@ if (number
         lengthObj = document.getElementById ('txtLength') ;
         widthObj = document.getElementById ('txtWidth') ;
         weightObj = document.getElementById ('tdWeight') ;
+  }
+
+  function resetInputs () {
+    lengthObj.value = '';
+    widthObj.value = '';
+    weightObj.innerHTML = '';
+    
+  }
+
+  function calcWeight () {
+    var length = new Number (lengthObj.value);
+    var width = new Number (widthObj.value);
+    weightObj.innerHTML = '';
+    if 
         
 
 
