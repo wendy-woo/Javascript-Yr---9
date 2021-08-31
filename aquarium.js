@@ -21,6 +21,9 @@ if (number
         lengthObj = document.getElementById ('txtLength') ;
         widthObj = document.getElementById ('txtWidth') ;
         weightObj = document.getElementById ('tdWeight') ;
+        document.getElementById ('btnReset').onclick = resetInputs;
+        document.getElementById ('btnCalc').onclick =  calcWeight; 
+    
   }
 
   function resetInputs () {
@@ -34,7 +37,36 @@ if (number
     var length = new Number (lengthObj.value);
     var width = new Number (widthObj.value);
     weightObj.innerHTML = '';
-    if 
+    if (isNaN (length (isNaN) // isNaN (width)) {
+               }
+               
+    
+    </script>
+               
+  </head>
+  <body>
+        <table>
+             <tr>
+                  <td> <label> for="txtLength">Length (centimeters)</label></td>
+                  <td> <label> type "text" id= "txtLength" /></td>
+            </tr>
+            <tr>
+                  <td><label for= 'txtWidth">Width (centimeters)</label></td
+                  <td><input type="text" id= "txtWisth" /></td
+        
+            </tr>
+            <tr>
+                  <td>Weight</td>
+                  <td id="tdWeight"></td>
+            
+            </tr>
+            <tr>
+                  <td></td>
+                  <td><button id="btnReset">Reset</button><button id="btnCalc"> Calculate</button></td
+            </tr>
+       </table>
+    </body>
+  </html>
         
 
 
@@ -59,8 +91,7 @@ The links below will help you to do this:
 https://www.w3schools.com/js/js_htmldom_document.asp
 https://www.w3schools.com/jsref/event_onclick.asp
 */
-document.getElementById ('btnReset').onclick = resetInputs;
-document.getElementById ('btnCalc').onclick =  calcWeight; 
+
 
 
 /*
