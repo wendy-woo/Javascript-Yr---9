@@ -1,50 +1,10 @@
-/*
-Access the form element using the method getElementById()
-The following URL will help you to do this:
-https://www.javascript-coder.com/javascript-form/getelementbyid-form/
-*/
+
 <!DOCTYPE html>
 <html>
 <body>
   
 < p id= "p1"> Hello wonderful customer!</p> 
 
-<script>
-document.getElementById("p1").innerHTML = "New text!";
-
-if (number  
-    document.getElementById ("demo"). innerHTML = "Hello wonderful customer"
-<head>
-  <title></title>
-  <script type="text/javascript">
-    window.onload=function() {
-        lengthObj = document.getElementById ('txtLength') ;
-        widthObj = document.getElementById ('txtWidth') ;
-        weightObj = document.getElementById ('tdWeight') ;
-        document.getElementById ('btnReset').onclick = resetInputs;
-        document.getElementById ('btnCalc').onclick =  calcWeight; 
-    
-  }
-
-  function resetInputs () {
-    lengthObj.value = '';
-    widthObj.value = '';
-    weightObj.innerHTML = '';
-    
-  }
-
-  function calcWeight () {
-    var length = new Number (lengthObj.value);
-    var width = new Number (widthObj.value);
-    weightObj.innerHTML = '';
-    if (isNaN (length (isNaN) // isNaN (width)) {
-               }
-               
-    
-    </script>
-               
-  </head>
-  <body>
         <table>
              <tr>
                   <td> <label> for="txtLength">Length (centimeters)</label></td>
@@ -68,7 +28,45 @@ if (number
     </body>
   </html>
         
+        
+   
+<script>
+                    
+                    /*
+Access the form element using the method getElementById()
+The following URL will help you to do this:
+https://www.javascript-coder.com/javascript-form/getelementbyid-form/
+*/
+                    
 
+
+    window.onload=function() {
+        lengthObj = document.getElementById ('txtLength') ;
+        widthObj = document.getElementById ('txtWidth') ;
+        heightObj = document.getElementById ('txtHeight') ;
+        costObj = document.getElementById ('tdCost') ;
+                    
+        document.getElementById ('btnReset').onclick = resetInputs;
+        document.getElementById ('btnCalc').onclick =  calcWeight; 
+    
+  }
+
+  function resetInputs () {
+    lengthObj.value = '';
+    widthObj.value = '';
+    weightObj.innerHTML = '';
+    
+  }
+
+  function calcWeight () {
+    var length = new Number (lengthObj.value);
+    var width = new Number (widthObj.value);
+    weightObj.innerHTML = '';
+    if (isNaN (length (isNaN) // isNaN (width)) {
+               }
+               
+    
+    </script>
 
 
 
@@ -144,18 +142,9 @@ https://www.w3schools.com/jsref/jsref_tofixed.asp
 Create a function named resetInputs to reset the inputs (Length, Width, Height).
 Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_reset
 
-<p>Enter names in the fields below, then click "Reset" to reset the form.</p>
 
-<form id="frm1">
-  First name: <input type="text" name="fname"><br>
-  Last name: <input type="text" name="lname"><br><br>
-  <input type="button" onclick="myFunction()" value="Reset">
-</form>
 
-<script>
-function myFunction() {
-  document.getElementById("frm1").reset();
-}
+
 
 Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
