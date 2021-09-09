@@ -144,6 +144,19 @@ https://www.w3schools.com/jsref/jsref_tofixed.asp
 Create a function named resetInputs to reset the inputs (Length, Width, Height).
 Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_reset
 
+<p>Enter names in the fields below, then click "Reset" to reset the form.</p>
+
+<form id="frm1">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Reset">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").reset();
+}
+
 Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
