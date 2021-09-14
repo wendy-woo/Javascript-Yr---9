@@ -66,6 +66,12 @@ https://www.javascript-coder.com/javascript-form/getelementbyid-form/
                }
                
     
+    
+               
+               
+    var glass = 
+    var glue = 10 cents for every edge
+               
     </script>
 
 
